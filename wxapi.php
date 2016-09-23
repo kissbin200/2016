@@ -3,11 +3,8 @@
   * wechat php test
   */
 
-//define your token
-// define("TOKEN", "weixinshuilaibao");
-
 $wechatObj = new wechatCallbackapiTest();
-// require_once(dirname(__FILE__) . 'Application/Home/controller/GetController.class.php');
+/*用于微信发红包*/
 
 // $wechatObj->valid();
 $wechatObj->responseMsg();//回复
