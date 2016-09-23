@@ -7,7 +7,7 @@ $wechatObj = new wechatCallbackapiTest();
 /*用于微信发红包*/
 
 // $wechatObj->valid();
-$wechatObj->responseMsg();//回复
+$wechatObj->responseMsg();
 
 class wechatCallbackapiTest
 {
